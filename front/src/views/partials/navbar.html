@@ -1,0 +1,84 @@
+{# navbar #}
+<div class="navbar-fixed">
+
+	<nav class="nav-extended">
+		<div class="nav-wrapper blue darken-2">
+
+			<ul id="nav-mobile" class="left hide-on-med-and-down">
+				<li>
+					<a href="/">
+						<i class="material-icons left">house</i>
+						Home
+					</a>
+				</li>
+				<li>
+					<a href="/funcionarios">
+						<i class="material-icons left">groups</i>
+						Funcionários
+					</a>
+				</li>
+				<li>
+					<a href="/departamentos">
+						<i class="material-icons left">business_center</i>
+						Departamentos
+					</a>
+				</li>
+				<li>
+					<a href="/veiculos">
+						<i class="material-icons left">directions_car</i>
+						Veículos
+					</a>
+				</li>
+				<li>
+					<a href="/motoristas">
+						<i class="material-icons left">airline_seat_recline_extra</i>
+						Motoristas
+					</a>
+				</li>
+				<li>
+					<a href="/manutencoes">
+						<i class="material-icons left">engineering</i>
+						Manutenções
+					</a>
+				</li>
+				<li>
+					<a href="/multas">
+						<i class="material-icons left">receipt_long</i>
+						Multas
+					</a>
+				</li>
+				<li>
+					<a href="/solicitacoes">
+						<i class="material-icons left">assignment</i>
+						Solicitações
+					</a>
+				</li> 			
+				<li>	
+					<a href="/locacoes">
+						<i class="material-icons left">multiple_stop</i>
+						Locação para evento
+					</a>
+				</li>
+
+			</ul>
+		</div>
+
+
+		<div class="nav-content blue darken-2 center" id="title-bar">
+			<span class="nav-title">{{title}}</span>
+
+			<a class="btn-floating btn-large halfway-fab 
+								waves-effect waves-light color-button pulse modal-trigger" 
+								href="#modal">
+				<i class="material-icons">filter_alt</i>
+			</a>
+		</div>
+
+	</nav>
+	
+</div>
+
+{% block scripts %}
+{% endblock scripts %}
+
+

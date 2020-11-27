@@ -1,0 +1,24 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "engines": {
+    "node": "14.15.1"
+  },
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "Antonio Narcilio",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "materialize-css": "^1.0.0",
+    "nunjucks": "^3.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}

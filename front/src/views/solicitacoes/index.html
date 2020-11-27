@@ -1,0 +1,67 @@
+<!-- importando conteudo base -->
+{% extends "layout.html" %}
+
+<!-- Title -->
+{% block title %}
+	<title>{{title}}</title>
+{% endblock title %}
+
+
+<!-- body --> 
+{% block content %}
+
+	{% block navbar %}
+		{% include "partials/navbar.html" %}
+	{% endblock navbar %}
+
+	<div class="container">
+		<div class="row">
+			<div class="col s12">
+
+				<table class="highlight">
+					<thead>
+						<tr>
+							<th>Nº</th>
+							<th>Status</th>
+							<th>Evento</th>
+							<th>Data e hora</th>
+							<th>Localidade</th>
+							<th>Qts de pessoas</th>
+							<th>Tempo de utilização</th>
+							<th>Veiculo</th>
+							<th>Placa</th>
+							<th>Funcionário</th>
+							<th>CPF</th>
+							<th>Departamento</th>
+						</tr>
+					</thead>
+
+					<tbody>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+
+			</div>
+		</div>
+	</div>
+
+{% endblock content %}
+
+<!-- scripts -->
+{% block scripts %}
+	<script src="/scripts/solicitacoes.js"></script>
+{% endblock scripts %}
+

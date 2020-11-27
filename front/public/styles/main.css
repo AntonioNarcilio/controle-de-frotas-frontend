@@ -1,0 +1,21 @@
+:root {
+	--primary-color: #1976D2;
+	--second-color: #fff;
+	--third-color: #fa815c;
+	--primary-color-font: #062c52;
+	--danger-color: #da0101;
+}
+
+a { 
+ text-decoration:none; 
+ color: inherit;
+} 
+
+/* ocultar barra de rolagem */
+::-webkit-scrollbar {
+  width: 0px;
+} 
+
+td, th {
+	text-align: center;
+}

@@ -1,0 +1,60 @@
+/* NAVBAR */
+nav.nav-extended .nav-content {
+	position: relative;
+	line-height: normal;
+	height: 41px;
+}
+
+
+nav.nav-extended .nav-wrapper {
+	min-height: 64px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+nav .nav-title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 25px;
+	padding: 0;
+}
+
+
+nav .brand-logo {
+	position: absolute;
+	color: #fff;
+	display: inline-block;
+	font-size: 1.5rem;
+	padding: 0;
+}
+
+.btn-floating i {
+	color: var(--primary-color);
+}
+
+
+.row .col.s12 {
+	margin-top: 4%;
+}
+
+/* Botão de pesquisa */
+
+.color-button {
+	background-color: var(--third-color) !important;
+}
+
+.btn-floating.btn-large i {
+	line-height: 56px;
+	color: var(--second-color);
+}
+
+/* --------------- */
+
+
+@media only screen and (min-width: 993px){
+	.container {
+			width: 100%;
+	}
+}

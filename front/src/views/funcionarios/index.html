@@ -1,0 +1,61 @@
+<!-- importando estrutura base -->
+{% extends "layout.html" %}
+
+<!-- title page -->
+{% block title %}
+	<title>{{title}}</title>
+{% endblock title %}
+
+<!-- stylesheet -->
+{% block styles %}
+{% endblock styles %}
+
+<!-- body -->
+{% block content %}
+
+	{% block navbar %}
+		{% include "partials/navbar.html" %}
+	{% endblock navbar %}
+
+	<div class="container">
+		<div class="row">
+			<div class="col s12">
+				
+				<table class="highlight">
+					<thead>
+						<tr>
+							<th>Nº</th>
+							<th>Nome do funcionário</th>
+							<th>CPF</th>
+							<th>Data de nascimento</th>
+							<th>Sexo</th>
+							<th>Endereço</th>
+							<th>Departamento</th>
+						</tr>
+					</thead>
+
+					<tbody>
+						<tr>
+							<th></th>
+							<th></th>
+							<th></th>
+							<th></th>
+							<th></th>
+							<th></th>
+							<th></th>
+						</tr>
+
+					</tbody>
+				</table>
+
+			</div>
+		</div>
+	</div>
+
+{% endblock content %}
+
+<!-- scripts -->
+{% block scripts %}
+	<script src="/scripts/funcionarios.js"></script>
+{% endblock scripts %}
+

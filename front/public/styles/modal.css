@@ -1,0 +1,89 @@
+.modal .modal-content {
+	padding: 18px 50px 0px 50px;
+	background-color: var(--third-color);
+}
+
+.modal .modal-footer {
+	border-radius: 0 0 2px 2px;
+	background-color: var(--third-color);
+	/* padding: 4px 6px; */
+	height: 50px;
+	width: 100%;
+	text-align: right;
+}
+
+#exit {
+	margin: 0px 26px 6px -42px;
+	color: var(--second-color);
+}
+
+#exit:hover {
+	color: var(--primary-color-font);
+}
+
+.btn i, .btn-large i, .btn-small i, 
+.btn-floating i, .btn-large i, 
+.btn-small i, .btn-flat i {
+	font-size: 1.8rem;
+	line-height: inherit;
+}
+
+#search {
+	margin: 0px 69px;
+	color: var(--second-color);
+}
+
+#search:hover {
+	color: var(--primary-color-font);
+}
+
+.input-field {
+	position: relative;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	color: var(--second-color) !important;
+
+	margin-top: 1rem;
+	margin-bottom: 0rem;
+}
+
+.input-field input{
+	color: var(--primary-color-font);
+	border-color: var(--second-color) !important;
+}
+
+.input-field .prefix ~ label {
+
+	color: var(--second-color) !important;
+	margin-left: 2.3rem;
+}
+
+/* label focus color */
+.input-field input[type=text]:focus + label {
+	color: var(--second-color) !important;
+	margin-left: 2.3rem;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+	color: var(--primary-color-font) !important;
+
+	border-bottom: 1px solid var(--second-color) !important;
+	box-shadow: 0 1px 0 0 var(--second-color) !important;
+}
+/* valid color */
+.input-field input[type=text].valid {
+	border-bottom: 1px solid var(--second-color) !important;
+	box-shadow: 0 1px 0 0 var(--second-color) !important;
+}
+/* invalid color */
+.input-field input[type=text].invalid {
+	border-bottom: 1px solid var(--second-color) !important;
+	box-shadow: 0 1px 0 0 var(--second-color) !important;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+	color: var(--second-color) !important;
+}
