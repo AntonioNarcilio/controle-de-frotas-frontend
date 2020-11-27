@@ -23,6 +23,12 @@
 
 <br/>
 
+<a href="https://controle-de-frotas-app.herokuapp.com">
+	<img src="./.github/screenshots.gif">
+</a>
+<h5 align="center">Clique na imagem para ir visitar a aplicação</h5>
+<br/>
+
 <a href="#topo">
   <h2 id="1">
 
