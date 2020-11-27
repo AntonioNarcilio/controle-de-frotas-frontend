@@ -1,4 +1,4 @@
-const uri  = 'http://localhost:3333/departamentos'
+const uri  = 'https://controle-de-frotas-api.herokuapp.com/departamentos'
 
 
 const meses = ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul","Ago","Set","Out","Nov","Dez"];

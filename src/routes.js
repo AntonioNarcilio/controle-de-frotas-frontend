@@ -9,7 +9,7 @@ router.get('/', (req, res) => {
 
 router.get('/funcionarios', (req, res) => {
 	return res.render('funcionarios/index.html',
-	{title: 'Funcionários'}
+	{title: 'Funcionários'},
 	)
 })
 

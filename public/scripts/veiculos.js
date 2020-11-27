@@ -1,4 +1,4 @@
-const uri  = 'http://localhost:3333/veiculos'
+const uri  = 'https://controle-de-frotas-api.herokuapp.com/veiculos'
 
 function getVeiculos () {
 

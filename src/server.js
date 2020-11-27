@@ -9,7 +9,7 @@ const HOST = '0.0.0.0'
 
 app.use(routes)
 
-app.use(express.static("public")) 	
+app.use(express.static("public"))  	
 app.use(express.static('node_modules/materialize-css/dist'))
 
 nunjucks.configure("src/views/", {
@@ -17,7 +17,6 @@ nunjucks.configure("src/views/", {
 	express: app,
 	noCache: true
 })
-
 
 app.listen(PORT, () =>{
 	console.log(`Aplicação rodando na porta ${PORT}\n👉 http://${HOST}:${PORT}`)
